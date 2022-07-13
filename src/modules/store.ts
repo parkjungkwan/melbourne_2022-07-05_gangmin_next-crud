@@ -3,7 +3,7 @@ import { createWrapper, HYDRATE } from "next-redux-wrapper";
 import createSagaMiddleware from "redux-saga";
 import logger from 'redux-logger'
 import usersReducer  from "modules/slices/userSlice";
-import rootSaga from "modules/sagas";
+import { rootSaga } from "modules";
 
 
 const isDev = process.env.NODE_ENV === 'development'

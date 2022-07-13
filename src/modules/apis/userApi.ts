@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from "axios";
-import {User} from '../interfaces/Interface'
+import {User} from '../types'
 const SERVER = 'http://localhost:4000'
 
 

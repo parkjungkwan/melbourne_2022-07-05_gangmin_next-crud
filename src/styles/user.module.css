@@ -21,10 +21,6 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    background-color: blueviolet;
-    padding: 0.5rem;
-    color: yellow;
-    border-radius: 0.5rem 0.5rem 0 0 ;
 }
 .ul2{
     width:40vw;
@@ -40,7 +36,6 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    padding: 0.5rem;
 
 }
 .li:hover {

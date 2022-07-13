@@ -1,8 +1,7 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import styles from 'styles/app.module.css'
-import Nav from 'components/frame/Nav'
-import Footer from 'components/frame/Footer'
+import { Nav, Footer } from 'components'
 import { wrapper } from 'modules/store'
 
 

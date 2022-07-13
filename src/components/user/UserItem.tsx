@@ -1,11 +1,10 @@
 
-import { Iuser } from 'modules/interfaces/Interface'
+import { User } from 'modules/types'
 import React, { FC } from 'react'
-import { useSelector } from 'react-redux'
 import styles from 'styles/user.module.css'
 
 
-const UserItem:FC<{users:Iuser[]}> = (props) => {
+const UserItem:FC<{users:User[]}> = (props) => {
 
   return (
     <div >
